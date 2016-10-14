@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         cbblg = (CheckBox) findViewById(R.id.checkBoxBilingual);
         cbaksl = (CheckBox) findViewById(R.id.checkBoxAksel);
         rgJK = (RadioGroup) findViewById(R.id.RadioGroup);
-        spagama = (Spinner) findViewById(R.id.spinner);
+        spagama = (Spinner) findViewById(R.id.spinneragama);
         tvHasil = (TextView) findViewById(R.id.textViewHasil);
 
         findViewById(R.id.buttonDaftar).setOnClickListener((new View.OnClickListener() {
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 tvHasil.setText("Anda belum memilih Jenis Kelamin\n");
             } else {
                 String asal = etasal.getText().toString();
-                String program = "Program yang dipilih \t\n";
+                String program = "Program yang dipilih : \n";
                 int startlen = program.length();
                 if (cbrgl.isChecked()) program += "\t " + cbrgl.getText() + "\n";
                 if (cbblg.isChecked()) program += "\t " + cbrgl.getText() + "\n";
