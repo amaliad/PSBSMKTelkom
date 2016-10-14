@@ -25,4 +25,31 @@
         android:layout_gravity="center_horizontal"
         android:text="Pendaftaran Siswa Baru" />
 
+    <TextView
+        android:id="@+id/textViewProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program" />
+
+    <CheckBox
+        android:id="@+id/checkBoxReguler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Reguler" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBilingual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Bilingual" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAksel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Akselerasi" />
+
 </LinearLayout>
